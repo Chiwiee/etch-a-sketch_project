@@ -1,7 +1,7 @@
 const body = document.querySelector("body");
 const mainContainer = document.querySelector("#main-container");
 
-for (let i = 1; i <= 16 * 16; i++) {
+for (let i = 1; i <= userInput; i++) {
   const div = document.createElement("div");
   div.classList = "div";
   mainContainer.appendChild(div);
