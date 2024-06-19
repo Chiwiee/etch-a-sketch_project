@@ -31,3 +31,6 @@ function userInputY() {
     return inputY;
   }
 }
+
+const gridX = userInputX();
+console.log(gridX);
