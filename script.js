@@ -10,6 +10,7 @@ grid.forEach((grid) => {
   });
 });
 
+inputBtm.addEventListener("click", () => {});
 function userInputX() {
   let inputX = prompt("Enter a Number");
   let maximum = 100;
