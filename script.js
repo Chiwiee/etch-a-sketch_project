@@ -39,5 +39,5 @@ inputBtm.addEventListener("click", () => {
   console.log(gridX);
   const gridY = userInputY();
   console.log(gridY);
-  getInputValue();
+  getInputValue(gridX, gridY);
 });
