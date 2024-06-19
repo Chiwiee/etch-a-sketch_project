@@ -20,4 +20,9 @@ grid.forEach((grid) => {
 function userInput() {
   let input = prompt("Please Enter a Number");
   let maximum = 100;
+  if (input < maximum) {
+    return input;
+  } else if (input > maximum) {
+    return (input = prompt("Please Enter a Number"));
+  }
 }
