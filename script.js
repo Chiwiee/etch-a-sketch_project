@@ -28,5 +28,6 @@ function userInputY() {
   let inputY = prompt("Enter a Number");
   let maximum = 100;
   if (inputY <= maximum) {
+    return "inputY";
   }
 }
