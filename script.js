@@ -23,3 +23,7 @@ function userInputX() {
     return "inputX";
   }
 }
+
+function userInputY() {
+  let inputY = prompt("Enter a Number");
+}
