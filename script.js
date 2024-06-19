@@ -16,3 +16,5 @@ grid.forEach((grid) => {
     e.target.style.background = "black";
   });
 });
+
+function userInput() {}
