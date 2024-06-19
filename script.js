@@ -26,3 +26,5 @@ function userInput() {
     return (input = prompt("Please Enter a Number"));
   }
 }
+
+let userInput = userInput();
