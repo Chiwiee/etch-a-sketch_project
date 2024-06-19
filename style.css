@@ -4,10 +4,10 @@
   margin: 0;
 }
 #main-container {
-  width: 340px;
+  width: 476px;
   display: flex;
   flex-wrap: wrap;
 }
 div {
-  padding: 10px;
+  padding: 14px;
 }
