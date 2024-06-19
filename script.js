@@ -16,4 +16,6 @@ grid.forEach((grid) => {
   });
 });
 
-function userInputX() {}
+function userInputX() {
+  let inputX = prompt("Enter a Number");
+}
