@@ -32,7 +32,7 @@ function userInputY() {
   }
 }
 
-function getInputValue() {}
+function getInputValue(gridX, gridY) {}
 
 const gridX = userInputX();
 console.log(gridX);
