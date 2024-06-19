@@ -18,4 +18,5 @@ grid.forEach((grid) => {
 
 function userInputX() {
   let inputX = prompt("Enter a Number");
+  let maximum = 100;
 }
