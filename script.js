@@ -2,10 +2,10 @@ const body = document.querySelector("body");
 const mainContainer = document.querySelector("#main-container");
 const inputBtn = document.querySelector("#input");
 
-let grid = document.querySelectorAll(".div");
-console.log(grid);
-grid.forEach((grid) => {
-  grid.addEventListener("mouseout", (e) => {
+let divs = document.querySelectorAll(".div");
+console.log(divs);
+divs.forEach((grid) => {
+  divs.addEventListener("mouseout", (e) => {
     e.target.style.background = "black";
   });
 });
