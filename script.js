@@ -8,3 +8,11 @@ for (let i = 1; i <= 16 * 16; i++) {
 }
 
 console.log(mainContainer);
+
+let grid = document.querySelectorAll(".div");
+console.log(grid);
+grid.forEach((grid) => {
+  grid.addEventListener("mouseout", (e) => {
+    e.target.style.background = "black";
+  });
+});
