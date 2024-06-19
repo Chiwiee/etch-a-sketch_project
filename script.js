@@ -17,4 +17,7 @@ grid.forEach((grid) => {
   });
 });
 
-function userInput() {}
+function userInput() {
+  let input = prompt("Please Enter a Number");
+  let maximum = 100;
+}
