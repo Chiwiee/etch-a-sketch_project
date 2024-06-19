@@ -32,6 +32,8 @@ function userInputY() {
   }
 }
 
+function getInputValue() {}
+
 const gridX = userInputX();
 console.log(gridX);
 const gridY = userInputY();
