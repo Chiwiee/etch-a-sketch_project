@@ -27,7 +27,7 @@ function userInputY() {
 }
 
 function getInputValue(gridX, gridY) {
-  for (let i = 1; i <= userInput; i++) {
+  for (let i = 1; i <= gridX * gridY; i++) {
     const div = document.createElement("div");
     div.classList = "div";
     mainContainer.appendChild(div);
