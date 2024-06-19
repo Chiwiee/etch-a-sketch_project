@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   border: 1px solid rgb(194, 193, 193);
 }
-div {
+.div {
   padding: 14px;
   border: 1px solid rgb(201, 201, 201);
 }
