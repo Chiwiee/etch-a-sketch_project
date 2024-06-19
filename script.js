@@ -4,7 +4,7 @@ const inputBtn = document.querySelector("#input");
 
 inputBtn.addEventListener("click", () => {
   function userInputX() {
-    let inputX = prompt("Enter a Number");
+    let inputX = prompt("Grid X: Enter a Number");
     let maximum = 100;
     if (inputX <= maximum) {
       return inputX;
@@ -12,7 +12,7 @@ inputBtn.addEventListener("click", () => {
   }
 
   function userInputY() {
-    let inputY = prompt("Enter a Number");
+    let inputY = prompt("Grid Y: Enter a Number");
     let maximum = 100;
     if (inputY <= maximum) {
       return inputY;
