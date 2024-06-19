@@ -38,3 +38,4 @@ const gridX = userInputX();
 console.log(gridX);
 const gridY = userInputY();
 console.log(gridY);
+getInputValue();
