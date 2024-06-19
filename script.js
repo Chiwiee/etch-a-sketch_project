@@ -20,7 +20,7 @@ function userInputX() {
   let inputX = prompt("Enter a Number");
   let maximum = 100;
   if (inputX <= maximum) {
-    return "inputX";
+    return inputX;
   }
 }
 
@@ -28,6 +28,6 @@ function userInputY() {
   let inputY = prompt("Enter a Number");
   let maximum = 100;
   if (inputY <= maximum) {
-    return "inputY";
+    return inputY;
   }
 }
