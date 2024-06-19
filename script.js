@@ -8,3 +8,7 @@ for (let i = 1; i <= 16 * 16; i++) {
 }
 
 console.log(mainContainer);
+
+function mouseEnter() {
+  document.querySelectorAll(".divs").style.color = "black";
+}
