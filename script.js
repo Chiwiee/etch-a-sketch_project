@@ -2,14 +2,6 @@ const body = document.querySelector("body");
 const mainContainer = document.querySelector("#main-container");
 const inputBtn = document.querySelector("#input");
 
-let divs = document.querySelectorAll(".div");
-console.log(divs);
-divs.forEach((grid) => {
-  divs.addEventListener("mouseout", (e) => {
-    e.target.style.background = "black";
-  });
-});
-
 inputBtn.addEventListener("click", () => {
   function userInputX() {
     let inputX = prompt("Enter a Number");
@@ -40,4 +32,12 @@ inputBtn.addEventListener("click", () => {
   const gridY = userInputY();
   console.log(gridY);
   getInputValue(gridX, gridY);
+
+  let divs = document.querySelectorAll(".div");
+  console.log(divs);
+  divs.forEach((divs) => {
+    divs.addEventListener("mouseout", (e) => {
+      e.target.style.background = "black";
+    });
+  });
 });
