@@ -8,9 +8,10 @@
   height: max-content;
   display: flex;
   border: 1px solid rgb(194, 193, 193);
+  margin: 16px;
 }
 .square {
-  padding: 10px;
+  padding: 8px;
   border: 1px solid rgba(0, 0, 0, 0.014);
   aspect-ratio: 1 / 1;
 }
