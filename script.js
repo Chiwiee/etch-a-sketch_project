@@ -11,7 +11,7 @@ for (let i = 0; i < 16 * 16; i++) {
   mainContainer.appendChild(box);
 }
 
-let divs = document.querySelectorAll(".square");
+let divs = document.querySelectorAll(".mainSquare");
 console.log(divs);
 divs.forEach((divs) => {
   divs.addEventListener("mouseout", (e) => {
