@@ -39,7 +39,7 @@ inputBtn.addEventListener("click", () => {
   const gridY = userInputY();
   getInputValue(gridX, gridY);
 
-  let divs = document.querySelectorAll(".div");
+  let divs = document.querySelectorAll(".square");
   console.log(divs);
   divs.forEach((divs) => {
     divs.addEventListener("mouseout", (e) => {

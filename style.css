@@ -11,6 +11,6 @@
 }
 .div {
   padding: 5px;
-  border: 1px solid rgb(201, 201, 201);
+  border: 1px solid rgba(0, 0, 0, 0.014);
   aspect-ratio: 1 / 1;
 }
