@@ -7,7 +7,7 @@
   display: flex;
   border: 1px solid rgb(194, 193, 193);
 }
-.div {
+.square {
   padding: 5px;
   border: 1px solid rgba(0, 0, 0, 0.014);
   aspect-ratio: 1 / 1;
