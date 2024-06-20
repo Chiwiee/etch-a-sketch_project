@@ -36,9 +36,7 @@ inputBtn.addEventListener("click", () => {
   }
 
   const gridX = userInputX();
-  console.log(gridX);
   const gridY = userInputY();
-  console.log(gridY);
   getInputValue(gridX, gridY);
 
   let divs = document.querySelectorAll(".div");
