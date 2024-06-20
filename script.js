@@ -27,6 +27,7 @@ inputBtn.addEventListener("click", () => {
     }
     for (let i = 1; i <= gridY; i++) {
       const gridSX = document.querySelectorAll(".box");
+      gridSX.forEach((gridSX) => {}
     }
   }
 
