@@ -9,7 +9,12 @@
   height: auto;
   width: 690px;
 }
-
+.mainSquare {
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  aspect-ratio: 1 / 1;
+  flex: 1;
+}
 #main-container {
   width: max-content;
   height: max-content;
