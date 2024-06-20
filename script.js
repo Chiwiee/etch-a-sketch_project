@@ -12,6 +12,11 @@ for (let i = 0; i < 16 * 16; i++) {
 }
 inputBtn.addEventListener("click", () => {
   function userInputX() {
+    const box = document.querySelectorAll(".mainBox");
+    box.forEach((box) => {
+      mainContainer.removeChild(box);
+    });
+
     let inputX = prompt("Grid X: Enter a Number");
     let maximum = 100;
     if (inputX <= maximum) {
