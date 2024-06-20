@@ -29,6 +29,7 @@ inputBtn.addEventListener("click", () => {
       const gridSX = document.querySelectorAll(".box");
       gridSX.forEach((gridSX) => {
         const gridSY = document.createElement("div");
+        gridSY.classList = "square";
       });
     }
   }
