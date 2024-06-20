@@ -3,6 +3,13 @@
   padding: 0;
   margin: 0;
 }
+.mainBox {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 690px;
+}
+
 #main-container {
   width: max-content;
   height: max-content;
