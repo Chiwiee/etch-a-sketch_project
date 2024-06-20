@@ -20,7 +20,9 @@ inputBtn.addEventListener("click", () => {
   }
 
   function getInputValue(gridX, gridY) {
-    for (let i = 1; i <= gridX; i++) {}
+    for (let i = 1; i <= gridX; i++) {
+      const gridSX = document.createElement("div");
+    }
   }
 
   const gridX = userInputX();
