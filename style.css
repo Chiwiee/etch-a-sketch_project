@@ -14,3 +14,7 @@
   border: 1px solid rgba(0, 0, 0, 0.014);
   aspect-ratio: 1 / 1;
 }
+button {
+  margin-left: 500px;
+  padding: 10px 300px 10px 300px;
+}
