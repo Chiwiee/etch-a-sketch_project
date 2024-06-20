@@ -25,7 +25,9 @@ inputBtn.addEventListener("click", () => {
       gridSX.classList = "box";
       mainContainer.appendChild(gridSX);
     }
-    for (let i = 1; i <= gridY; i++) {}
+    for (let i = 1; i <= gridY; i++) {
+      const gridSX = document.querySelectorAll(".box");
+    }
   }
 
   const gridX = userInputX();
