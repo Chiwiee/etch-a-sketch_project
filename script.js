@@ -2,6 +2,7 @@ const body = document.querySelector("body");
 const mainContainer = document.querySelector("#main-container");
 const inputBtn = document.querySelector("#input");
 
+for (let i = 0; i < 16 * 16; i++) {}
 inputBtn.addEventListener("click", () => {
   function userInputX() {
     let inputX = prompt("Grid X: Enter a Number");
