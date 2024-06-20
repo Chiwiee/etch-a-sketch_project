@@ -22,6 +22,7 @@ inputBtn.addEventListener("click", () => {
   function getInputValue(gridX, gridY) {
     for (let i = 1; i <= gridX; i++) {
       const gridSX = document.createElement("div");
+      gridSX.classList = "box";
     }
   }
 
