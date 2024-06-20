@@ -30,6 +30,7 @@ inputBtn.addEventListener("click", () => {
       gridSX.forEach((gridSX) => {
         const gridSY = document.createElement("div");
         gridSY.classList = "square";
+        gridSX.appendChild(gridSY);
       });
     }
   }
