@@ -19,13 +19,7 @@ inputBtn.addEventListener("click", () => {
     }
   }
 
-  function getInputValue(gridX, gridY) {
-    for (let i = 1; i <= gridX * gridY; i++) {
-      const div = document.createElement("div");
-      div.classList = "div";
-      mainContainer.appendChild(div);
-    }
-  }
+  function getInputValue(gridX, gridY) {}
 
   const gridX = userInputX();
   console.log(gridX);
