@@ -10,6 +10,15 @@ for (let i = 0; i < 16 * 16; i++) {
   box.appendChild(mainGrid);
   mainContainer.appendChild(box);
 }
+
+let divs = document.querySelectorAll(".square");
+console.log(divs);
+divs.forEach((divs) => {
+  divs.addEventListener("mouseout", (e) => {
+    e.target.style.background = "black";
+  });
+});
+
 inputBtn.addEventListener("click", () => {
   function userInputX() {
     const box = document.querySelectorAll(".mainBox");
