@@ -5,6 +5,7 @@ const inputBtn = document.querySelector("#input");
 for (let i = 0; i < 16 * 16; i++) {
   const mainGrid = document.createElement("div");
   mainGrid.classList = "mainSquare";
+  box.appendChild(mainGrid);
 }
 inputBtn.addEventListener("click", () => {
   function userInputX() {
